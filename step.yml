@@ -21,9 +21,9 @@ description: |
   ```
   you can extract your commit logs with the following command (don't forget to set MY_TAG value) :
   `git log --no-merges --pretty=format:%s%n%b --children MY_TAG..HEAD`
-website: https://github.com/Freebox-CI/bitrise-step-changelog-generator
-source_code_url: https://github.com/Freebox-CI/bitrise-step-changelog-generator
-support_url: https://github.com/Freebox-CI/bitrise-step-changelog-generator/issues
+website: https://github.com/ColluJohan/bitrise-step-changelog-generator
+source_code_url: https://github.com/ColluJohan/bitrise-step-changelog-generator
+support_url: https://github.com/ColluJohan/bitrise-step-changelog-generator/issues
 host_os_tags:
   - osx-10.10
   - ubuntu-16.04
@@ -68,7 +68,7 @@ deps:
 
 toolkit:
   go:
-    package_name: github.com/Freebox-CI/bitrise-step-changelog-generator
+    package_name: github.com/ColluJohan/bitrise-step-changelog-generator
 
 inputs:
   - repo_dir: "."

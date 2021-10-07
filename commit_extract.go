@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Freebox-CI/bitrise-step-changelog-generator/git"
+	"github.com/ColluJohan/bitrise-step-changelog-generator/git"
 )
 
 const (
